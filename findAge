@@ -1,0 +1,5 @@
+ageNow = input("Enter your age: ")
+now = datetime.datetime.now()
+print("Current year = " + str(now.year))
+age100 = int(now.year) + 100 - int(ageNow)
+print("You turn 100 in the year " + str(age100))
