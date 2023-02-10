@@ -3,6 +3,7 @@ list1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 list2 = []
 num1 = len(list1)
 print("Number of items in the original lists are:", num1)
+print("Items in the original lists are:", list1)
 i=0
 j=0
 
@@ -13,4 +14,4 @@ while i <= num1:
         j += 1
     else:
         i += 1
-print(“number of items that are less than5 are:”, list2
+print(“Items that are less than 5 are:”, list2)
